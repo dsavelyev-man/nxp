@@ -1,0 +1,36 @@
+@import "../../other";
+
+.admin-login {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(120px, 360px);
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login-form {
+  display: grid;
+  margin: 10px;
+  grid-gap: 20px;
+}
+
+.admin-login-input {
+  padding: 10px 20px;
+  font-family: $font;
+  outline: none;
+  border: none;
+  color: $white;
+  background-color: $dark-input;
+  border-radius: $border-button;
+  transition: $transition;
+  &:hover {
+    background-color: $dark-hover-input;
+  }
+
+  &:focus {
+    box-shadow: 0 0 1px 1px $dark-outline;
+    background-color: $dark-hover-input;
+  }
+}

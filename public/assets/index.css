@@ -1,0 +1,355 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+.bg-dark{background-color:#1e1e1e}.bg-dark-hover{transition:.2s}.bg-dark-hover:hover{background-color:#282828}.bg-blue-100{background-color:#cfe2fe}.bg-hover-blue-100{transition:.2s}.bg-hover-blue-100:hover{background-color:#cfe2fe}.text-blue-100{color:#cfe2fe}.bg-blue-200{background-color:#6ea8fc}.bg-hover-blue-200{transition:.2s}.bg-hover-blue-200:hover{background-color:#6ea8fc}.text-blue-200{color:#6ea8fc}.bg-blue-300{background-color:#3d8bfc}.bg-hover-blue-300{transition:.2s}.bg-hover-blue-300:hover{background-color:#3d8bfc}.text-blue-300{color:#3d8bfc}.bg-blue-400{background-color:#0c6ffb}.bg-hover-blue-400{transition:.2s}.bg-hover-blue-400:hover{background-color:#0c6ffb}.text-blue-400{color:#0c6ffb}.bg-blue-500{background-color:#0b58ca}.bg-hover-blue-500{transition:.2s}.bg-hover-blue-500:hover{background-color:#0b58ca}.text-blue-500{color:#0b58ca}.bg-blue-600{background-color:#074298}.bg-hover-blue-600{transition:.2s}.bg-hover-blue-600:hover{background-color:#074298}.text-blue-600{color:#074298}.bg-blue-700{background-color:#084298}.bg-hover-blue-700{transition:.2s}.bg-hover-blue-700:hover{background-color:#084298}.text-blue-700{color:#084298}.bg-blue-800{background-color:#052c65}.bg-hover-blue-800{transition:.2s}.bg-hover-blue-800:hover{background-color:#052c65}.text-blue-800{color:#052c65}.bg-blue-900{background-color:#031633}.bg-hover-blue-900{transition:.2s}.bg-hover-blue-900:hover{background-color:#031633}.text-blue-900{color:#031633}.bg-red-100{background-color:#f8d7da}.bg-hover-red-100{transition:.2s}.bg-hover-red-100:hover{background-color:#f8d7da}.text-red-100{color:#f8d7da}.bg-red-200{background-color:#f1aeb5}.bg-hover-red-200{transition:.2s}.bg-hover-red-200:hover{background-color:#f1aeb5}.text-red-200{color:#f1aeb5}.bg-red-300{background-color:#ea868f}.bg-hover-red-300{transition:.2s}.bg-hover-red-300:hover{background-color:#ea868f}.text-red-300{color:#ea868f}.bg-red-400{background-color:#e35d6a}.bg-hover-red-400{transition:.2s}.bg-hover-red-400:hover{background-color:#e35d6a}.text-red-400{color:#e35d6a}.bg-red-500{background-color:#dc3545}.bg-hover-red-500{transition:.2s}.bg-hover-red-500:hover{background-color:#dc3545}.text-red-500{color:#dc3545}.bg-red-600{background-color:#b02a37}.bg-hover-red-600{transition:.2s}.bg-hover-red-600:hover{background-color:#b02a37}.text-red-600{color:#b02a37}.bg-red-700{background-color:#842029}.bg-hover-red-700{transition:.2s}.bg-hover-red-700:hover{background-color:#842029}.text-red-700{color:#842029}.bg-red-800{background-color:#58151c}.bg-hover-red-800{transition:.2s}.bg-hover-red-800:hover{background-color:#58151c}.text-red-800{color:#58151c}.bg-red-900{background-color:#2c0b0e}.bg-hover-red-900{transition:.2s}.bg-hover-red-900:hover{background-color:#2c0b0e}.text-red-900{color:#2c0b0e}.bg-yellow-100{background-color:#fff3cd}.bg-hover-yellow-100{transition:.2s}.bg-hover-yellow-100:hover{background-color:#fff3cd}.text-yellow-100{color:#fff3cd}.bg-yellow-200{background-color:#ffe69c}.bg-hover-yellow-200{transition:.2s}.bg-hover-yellow-200:hover{background-color:#ffe69c}.text-yellow-200{color:#ffe69c}.bg-yellow-300{background-color:#ffda6a}.bg-hover-yellow-300{transition:.2s}.bg-hover-yellow-300:hover{background-color:#ffda6a}.text-yellow-300{color:#ffda6a}.bg-yellow-400{background-color:#ffcd39}.bg-hover-yellow-400{transition:.2s}.bg-hover-yellow-400:hover{background-color:#ffcd39}.text-yellow-400{color:#ffcd39}.bg-yellow-500{background-color:#ffc107}.bg-hover-yellow-500{transition:.2s}.bg-hover-yellow-500:hover{background-color:#ffc107}.text-yellow-500{color:#ffc107}.bg-yellow-600{background-color:#cc9a06}.bg-hover-yellow-600{transition:.2s}.bg-hover-yellow-600:hover{background-color:#cc9a06}.text-yellow-600{color:#cc9a06}.bg-yellow-700{background-color:#997404}.bg-hover-yellow-700{transition:.2s}.bg-hover-yellow-700:hover{background-color:#997404}.text-yellow-700{color:#997404}.bg-yellow-800{background-color:#664d03}.bg-hover-yellow-800{transition:.2s}.bg-hover-yellow-800:hover{background-color:#664d03}.text-yellow-800{color:#664d03}.bg-yellow-900{background-color:#332701}.bg-hover-yellow-900{transition:.2s}.bg-hover-yellow-900:hover{background-color:#332701}.text-yellow-900{color:#332701}.bg-green-100{background-color:#d1e7dd}.bg-hover-green-100{transition:.2s}.bg-hover-green-100:hover{background-color:#d1e7dd}.text-green-100{color:#d1e7dd}.bg-green-200{background-color:#a3cfbb}.bg-hover-green-200{transition:.2s}.bg-hover-green-200:hover{background-color:#a3cfbb}.text-green-200{color:#a3cfbb}.bg-green-300{background-color:#75b798}.bg-hover-green-300{transition:.2s}.bg-hover-green-300:hover{background-color:#75b798}.text-green-300{color:#75b798}.bg-green-400{background-color:#479f76}.bg-hover-green-400{transition:.2s}.bg-hover-green-400:hover{background-color:#479f76}.text-green-400{color:#479f76}.bg-green-500{background-color:#198754}.bg-hover-green-500{transition:.2s}.bg-hover-green-500:hover{background-color:#198754}.text-green-500{color:#198754}.bg-green-600{background-color:#146c43}.bg-hover-green-600{transition:.2s}.bg-hover-green-600:hover{background-color:#146c43}.text-green-600{color:#146c43}.bg-green-700{background-color:#0f5132}.bg-hover-green-700{transition:.2s}.bg-hover-green-700:hover{background-color:#0f5132}.text-green-700{color:#0f5132}.bg-green-800{background-color:#0a3622}.bg-hover-green-800{transition:.2s}.bg-hover-green-800:hover{background-color:#0a3622}.text-green-800{color:#0a3622}.bg-green-900{background-color:#051b11}.bg-hover-green-900{transition:.2s}.bg-hover-green-900:hover{background-color:#051b11}.text-green-900{color:#051b11}.bg-gray-100{background-color:#f8f9fa}.bg-hover-gray-100{transition:.2s}.bg-hover-gray-100:hover{background-color:#f8f9fa}.text-gray-100{color:#f8f9fa}.bg-gray-200{background-color:#e9ecef}.bg-hover-gray-200{transition:.2s}.bg-hover-gray-200:hover{background-color:#e9ecef}.text-gray-200{color:#e9ecef}.bg-gray-300{background-color:#dee2e6}.bg-hover-gray-300{transition:.2s}.bg-hover-gray-300:hover{background-color:#dee2e6}.text-gray-300{color:#dee2e6}.bg-gray-400{background-color:#ced4da}.bg-hover-gray-400{transition:.2s}.bg-hover-gray-400:hover{background-color:#ced4da}.text-gray-400{color:#ced4da}.bg-gray-500{background-color:#adb5bd}.bg-hover-gray-500{transition:.2s}.bg-hover-gray-500:hover{background-color:#adb5bd}.text-gray-500{color:#adb5bd}.bg-gray-600{background-color:#6c757d}.bg-hover-gray-600{transition:.2s}.bg-hover-gray-600:hover{background-color:#6c757d}.text-gray-600{color:#6c757d}.bg-gray-700{background-color:#495057}.bg-hover-gray-700{transition:.2s}.bg-hover-gray-700:hover{background-color:#495057}.text-gray-700{color:#495057}.bg-gray-800{background-color:#343a40}.bg-hover-gray-800{transition:.2s}.bg-hover-gray-800:hover{background-color:#343a40}.text-gray-800{color:#343a40}.bg-gray-900{background-color:#212529}.bg-hover-gray-900{transition:.2s}.bg-hover-gray-900:hover{background-color:#212529}.text-gray-900{color:#212529}.bg-pink-100{background-color:#f7d6e6}.bg-hover-pink-100{transition:.2s}.bg-hover-pink-100:hover{background-color:#f7d6e6}.text-pink-100{color:#f7d6e6}.bg-pink-200{background-color:#efadce}.bg-hover-pink-200{transition:.2s}.bg-hover-pink-200:hover{background-color:#efadce}.text-pink-200{color:#efadce}.bg-pink-300{background-color:#e685b5}.bg-hover-pink-300{transition:.2s}.bg-hover-pink-300:hover{background-color:#e685b5}.text-pink-300{color:#e685b5}.bg-pink-400{background-color:#de5c9d}.bg-hover-pink-400{transition:.2s}.bg-hover-pink-400:hover{background-color:#de5c9d}.text-pink-400{color:#de5c9d}.bg-pink-500{background-color:#d63384}.bg-hover-pink-500{transition:.2s}.bg-hover-pink-500:hover{background-color:#d63384}.text-pink-500{color:#d63384}.bg-pink-600{background-color:#ab296a}.bg-hover-pink-600{transition:.2s}.bg-hover-pink-600:hover{background-color:#ab296a}.text-pink-600{color:#ab296a}.bg-pink-700{background-color:#801f4f}.bg-hover-pink-700{transition:.2s}.bg-hover-pink-700:hover{background-color:#801f4f}.text-pink-700{color:#801f4f}.bg-pink-800{background-color:#561435}.bg-hover-pink-800{transition:.2s}.bg-hover-pink-800:hover{background-color:#561435}.text-pink-800{color:#561435}.bg-pink-900{background-color:#2b0a1a}.bg-hover-pink-900{transition:.2s}.bg-hover-pink-900:hover{background-color:#2b0a1a}.text-pink-900{color:#2b0a1a}.bg-indigo-100{background-color:#e0cffc}.bg-hover-indigo-100{transition:.2s}.bg-hover-indigo-100:hover{background-color:#e0cffc}.text-indigo-100{color:#e0cffc}.bg-indigo-200{background-color:#c29ffa}.bg-hover-indigo-200{transition:.2s}.bg-hover-indigo-200:hover{background-color:#c29ffa}.text-indigo-200{color:#c29ffa}.bg-indigo-300{background-color:#a370f7}.bg-hover-indigo-300{transition:.2s}.bg-hover-indigo-300:hover{background-color:#a370f7}.text-indigo-300{color:#a370f7}.bg-indigo-400{background-color:#8540f5}.bg-hover-indigo-400{transition:.2s}.bg-hover-indigo-400:hover{background-color:#8540f5}.text-indigo-400{color:#8540f5}.bg-indigo-500{background-color:#6610f2}.bg-hover-indigo-500{transition:.2s}.bg-hover-indigo-500:hover{background-color:#6610f2}.text-indigo-500{color:#6610f2}.bg-indigo-600{background-color:#520dc2}.bg-hover-indigo-600{transition:.2s}.bg-hover-indigo-600:hover{background-color:#520dc2}.text-indigo-600{color:#520dc2}.bg-indigo-700{background-color:#3d0a91}.bg-hover-indigo-700{transition:.2s}.bg-hover-indigo-700:hover{background-color:#3d0a91}.text-indigo-700{color:#3d0a91}.bg-indigo-800{background-color:#290661}.bg-hover-indigo-800{transition:.2s}.bg-hover-indigo-800:hover{background-color:#290661}.text-indigo-800{color:#290661}.bg-indigo-900{background-color:#140330}.bg-hover-indigo-900{transition:.2s}.bg-hover-indigo-900:hover{background-color:#140330}.text-indigo-900{color:#140330}.bg-purple-100{background-color:#e2d9f3}.bg-hover-purple-100{transition:.2s}.bg-hover-purple-100:hover{background-color:#e2d9f3}.text-purple-100{color:#e2d9f3}.bg-purple-200{background-color:#c5b3e6}.bg-hover-purple-200{transition:.2s}.bg-hover-purple-200:hover{background-color:#c5b3e6}.text-purple-200{color:#c5b3e6}.bg-purple-300{background-color:#a98eda}.bg-hover-purple-300{transition:.2s}.bg-hover-purple-300:hover{background-color:#a98eda}.text-purple-300{color:#a98eda}.bg-purple-400{background-color:#8c68cd}.bg-hover-purple-400{transition:.2s}.bg-hover-purple-400:hover{background-color:#8c68cd}.text-purple-400{color:#8c68cd}.bg-purple-500{background-color:#6f42c1}.bg-hover-purple-500{transition:.2s}.bg-hover-purple-500:hover{background-color:#6f42c1}.text-purple-500{color:#6f42c1}.bg-purple-600{background-color:#59359a}.bg-hover-purple-600{transition:.2s}.bg-hover-purple-600:hover{background-color:#59359a}.text-purple-600{color:#59359a}.bg-purple-700{background-color:#432874}.bg-hover-purple-700{transition:.2s}.bg-hover-purple-700:hover{background-color:#432874}.text-purple-700{color:#432874}.bg-purple-800{background-color:#2c1a4d}.bg-hover-purple-800{transition:.2s}.bg-hover-purple-800:hover{background-color:#2c1a4d}.text-purple-800{color:#2c1a4d}.bg-purple-900{background-color:#160d27}.bg-hover-purple-900{transition:.2s}.bg-hover-purple-900:hover{background-color:#160d27}.text-purple-900{color:#160d27}.bg-orange-100{background-color:#ffe5d0}.bg-hover-orange-100{transition:.2s}.bg-hover-orange-100:hover{background-color:#ffe5d0}.text-orange-100{color:#ffe5d0}.bg-orange-200{background-color:#fecba1}.bg-hover-orange-200{transition:.2s}.bg-hover-orange-200:hover{background-color:#fecba1}.text-orange-200{color:#fecba1}.bg-orange-300{background-color:#feb272}.bg-hover-orange-300{transition:.2s}.bg-hover-orange-300:hover{background-color:#feb272}.text-orange-300{color:#feb272}.bg-orange-400{background-color:#fd9843}.bg-hover-orange-400{transition:.2s}.bg-hover-orange-400:hover{background-color:#fd9843}.text-orange-400{color:#fd9843}.bg-orange-500{background-color:#fd7e14}.bg-hover-orange-500{transition:.2s}.bg-hover-orange-500:hover{background-color:#fd7e14}.text-orange-500{color:#fd7e14}.bg-orange-600{background-color:#ca6510}.bg-hover-orange-600{transition:.2s}.bg-hover-orange-600:hover{background-color:#ca6510}.text-orange-600{color:#ca6510}.bg-orange-700{background-color:#984c0c}.bg-hover-orange-700{transition:.2s}.bg-hover-orange-700:hover{background-color:#984c0c}.text-orange-700{color:#984c0c}.bg-orange-800{background-color:#653208}.bg-hover-orange-800{transition:.2s}.bg-hover-orange-800:hover{background-color:#653208}.text-orange-800{color:#653208}.bg-orange-900{background-color:#331904}.bg-hover-orange-900{transition:.2s}.bg-hover-orange-900:hover{background-color:#331904}.text-orange-900{color:#331904}.bg-teal-100{background-color:#d2f4ea}.bg-hover-teal-100{transition:.2s}.bg-hover-teal-100:hover{background-color:#d2f4ea}.text-teal-100{color:#d2f4ea}.bg-teal-200{background-color:#a6e9d5}.bg-hover-teal-200{transition:.2s}.bg-hover-teal-200:hover{background-color:#a6e9d5}.text-teal-200{color:#a6e9d5}.bg-teal-300{background-color:#79dfc1}.bg-hover-teal-300{transition:.2s}.bg-hover-teal-300:hover{background-color:#79dfc1}.text-teal-300{color:#79dfc1}.bg-teal-400{background-color:#4dd4ac}.bg-hover-teal-400{transition:.2s}.bg-hover-teal-400:hover{background-color:#4dd4ac}.text-teal-400{color:#4dd4ac}.bg-teal-500{background-color:#20c997}.bg-hover-teal-500{transition:.2s}.bg-hover-teal-500:hover{background-color:#20c997}.text-teal-500{color:#20c997}.bg-teal-600{background-color:#1aa179}.bg-hover-teal-600{transition:.2s}.bg-hover-teal-600:hover{background-color:#1aa179}.text-teal-600{color:#1aa179}.bg-teal-700{background-color:#13795b}.bg-hover-teal-700{transition:.2s}.bg-hover-teal-700:hover{background-color:#13795b}.text-teal-700{color:#13795b}.bg-teal-800{background-color:#0d503c}.bg-hover-teal-800{transition:.2s}.bg-hover-teal-800:hover{background-color:#0d503c}.text-teal-800{color:#0d503c}.bg-teal-900{background-color:#06281e}.bg-hover-teal-900{transition:.2s}.bg-hover-teal-900:hover{background-color:#06281e}.text-teal-900{color:#06281e}.bg-cyan-100{background-color:#cff4fc}.bg-hover-cyan-100{transition:.2s}.bg-hover-cyan-100:hover{background-color:#cff4fc}.text-cyan-100{color:#cff4fc}.bg-cyan-200{background-color:#9eeaf9}.bg-hover-cyan-200{transition:.2s}.bg-hover-cyan-200:hover{background-color:#9eeaf9}.text-cyan-200{color:#9eeaf9}.bg-cyan-300{background-color:#6edff6}.bg-hover-cyan-300{transition:.2s}.bg-hover-cyan-300:hover{background-color:#6edff6}.text-cyan-300{color:#6edff6}.bg-cyan-400{background-color:#3dd5f3}.bg-hover-cyan-400{transition:.2s}.bg-hover-cyan-400:hover{background-color:#3dd5f3}.text-cyan-400{color:#3dd5f3}.bg-cyan-500{background-color:#0dcaf0}.bg-hover-cyan-500{transition:.2s}.bg-hover-cyan-500:hover{background-color:#0dcaf0}.text-cyan-500{color:#0dcaf0}.bg-cyan-600{background-color:#0aa2c0}.bg-hover-cyan-600{transition:.2s}.bg-hover-cyan-600:hover{background-color:#0aa2c0}.text-cyan-600{color:#0aa2c0}.bg-cyan-700{background-color:#087990}.bg-hover-cyan-700{transition:.2s}.bg-hover-cyan-700:hover{background-color:#087990}.text-cyan-700{color:#087990}.bg-cyan-800{background-color:#055160}.bg-hover-cyan-800{transition:.2s}.bg-hover-cyan-800:hover{background-color:#055160}.text-cyan-800{color:#055160}.bg-cyan-900{background-color:#032830}.bg-hover-cyan-900{transition:.2s}.bg-hover-cyan-900:hover{background-color:#032830}.text-cyan-900{color:#032830}.p-1{padding:2px}.p-2{padding:4px}.p-3{padding:6px}.p-4{padding:8px}.p-5{padding:10px}.p-6{padding:12px}.p-7{padding:14px}.p-8{padding:16px}.p-9{padding:18px}.p-10{padding:20px}.p-11{padding:22px}.p-12{padding:24px}.pointer{cursor:pointer}.br{border-radius:10px}.br-button{border-radius:4px}
+body{background:#121212;color:#fff;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}
+.btn{border:none;border-radius:4px;padding:8px 24px;cursor:pointer;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";transition:.2s}.btn-dark{background-color:#1e1e1e;box-shadow:0 0 0 0 #3c3c3c;color:#fff}.btn-dark:hover,.btn-dark:focus{background-color:#282828}.btn-dark:focus{box-shadow:0 0 1px 1px #3c3c3c}.btn-warning{background-color:#ffc107;box-shadow:0 0 0 0 #ffcd39;color:#000}.btn-warning:hover,.btn-warning:focus{background-color:#cc9a06}.btn-warning:focus{box-shadow:0 0 1px 1px #ffcd39}.btn-danger{background-color:#dc3545;box-shadow:0 0 0 0 #e35d6a;color:#fff}.btn-danger:hover,.btn-danger:focus{background-color:#b02a37}.btn-danger:focus{box-shadow:0 0 1px 1px #e35d6a}.btn-success{background-color:#198754;box-shadow:0 0 0 0 #479f76;color:#fff}.btn-success:hover,.btn-success:focus{background-color:#146c43}.btn-success:focus{box-shadow:0 0 1px 1px #479f76}.btn-secondary{background-color:#adb5bd;box-shadow:0 0 0 0 #ced4da;color:#000}.btn-secondary:hover,.btn-secondary:focus{background-color:#6c757d}.btn-secondary:focus{box-shadow:0 0 1px 1px #ced4da}.btn-primary{background-color:#0b58ca;box-shadow:0 0 0 0 #0c6ffb;color:#fff}.btn-primary:hover,.btn-primary:focus{background-color:#074298}.btn-primary:focus{box-shadow:0 0 1px 1px #0c6ffb}.btn-outline-dark{border:1px solid #1e1e1e;background:none;color:#1e1e1e;box-shadow:0 0 0 0 #3c3c3c}.btn-outline-dark:hover,.btn-outline-dark:focus{color:#fff;border:1px solid #282828;background-color:#282828}.btn-outline-dark:focus{box-shadow:0 0 1px 1px #3c3c3c}.btn-outline-warning{border:1px solid #ffc107;background:none;color:#ffc107;box-shadow:0 0 0 0 #ffcd39}.btn-outline-warning:hover,.btn-outline-warning:focus{color:#000;border:1px solid #cc9a06;background-color:#cc9a06}.btn-outline-warning:focus{box-shadow:0 0 1px 1px #ffcd39}.btn-outline-danger{border:1px solid #dc3545;background:none;color:#dc3545;box-shadow:0 0 0 0 #e35d6a}.btn-outline-danger:hover,.btn-outline-danger:focus{color:#fff;border:1px solid #b02a37;background-color:#b02a37}.btn-outline-danger:focus{box-shadow:0 0 1px 1px #e35d6a}.btn-outline-success{border:1px solid #198754;background:none;color:#198754;box-shadow:0 0 0 0 #479f76}.btn-outline-success:hover,.btn-outline-success:focus{color:#fff;border:1px solid #146c43;background-color:#146c43}.btn-outline-success:focus{box-shadow:0 0 1px 1px #479f76}.btn-outline-secondary{border:1px solid #adb5bd;background:none;color:#adb5bd;box-shadow:0 0 0 0 #ced4da}.btn-outline-secondary:hover,.btn-outline-secondary:focus{color:#000;border:1px solid #6c757d;background-color:#6c757d}.btn-outline-secondary:focus{box-shadow:0 0 1px 1px #ced4da}.btn-outline-primary{border:1px solid #cfe2fe,#6ea8fc,#3d8bfc,#0c6ffb,#0b58ca,#074298,#084298,#052c65,#031633 5;background:none;color:#cfe2fe,#6ea8fc,#3d8bfc,#0c6ffb,#0b58ca,#074298,#084298,#052c65,#031633 5;box-shadow:0 0 0 0 #cfe2fe,#6ea8fc,#3d8bfc,#0c6ffb,#0b58ca,#074298,#084298,#052c65,#031633 4}.btn-outline-primary:hover,.btn-outline-primary:focus{color:#fff;border:1px solid #cfe2fe,#6ea8fc,#3d8bfc,#0c6ffb,#0b58ca,#074298,#084298,#052c65,#031633 6;background-color:#cfe2fe,#6ea8fc,#3d8bfc,#0c6ffb,#0b58ca,#074298,#084298,#052c65,#031633 6}.btn-outline-primary:focus{box-shadow:0 0 1px 1px #cfe2fe,#6ea8fc,#3d8bfc,#0c6ffb,#0b58ca,#074298,#084298,#052c65,#031633 4}.btn-outline-light{border:1px solid #f8f9fa;background:none;color:#f8f9fa;box-shadow:0 0 0 0 #e9ecef}.btn-outline-light:hover,.btn-outline-light:focus{color:#000;border:1px solid #f8f9fa;background-color:#f8f9fa}.btn-outline-light:focus{box-shadow:0 0 1px 1px #e9ecef}.btn-small{font-size:15px}.btn-large{font-size:18px}.btn-disabled{background-color:#495057;color:#6c757d;cursor:default}.btn-disabled:hover,.btn-disabled:focus{background-color:#495057;color:#6c757d;border:none}
+.admin-login{position:fixed;width:100vw;height:100vh;display:grid;grid-template-columns:minmax(120px, 360px);justify-content:center;align-items:center}.admin-login-form{display:grid;margin:10px;grid-gap:20px}.admin-login-input{padding:10px 20px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";outline:none;border:none;color:#fff;background-color:#282828;border-radius:4px;transition:.2s}.admin-login-input:hover{background-color:#343434}.admin-login-input:focus{box-shadow:0 0 1px 1px #3c3c3c;background-color:#343434}

@@ -1,0 +1,76 @@
+@import "../other";
+
+.btn {
+  border: none;
+  border-radius: $border-button;
+  padding: 8px 24px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: $font;
+  transition: $transition;
+}
+
+@mixin color($name, $color, $hoverColor, $text, $shadow) {
+  .btn-#{$name} {
+    background-color: $color;
+    box-shadow: 0 0 0 0 $shadow;
+    color: $text;
+    &:hover, &:focus {
+      background-color: $hoverColor;
+    }
+    &:focus {
+      box-shadow: 0 0 0 1px $shadow;
+    }
+  }
+}
+
+@include color("dark", $dark-background, $dark-hover, $white, $dark-outline);
+@include color("warning", $yellow-500, $yellow-600, $black, $yellow-400);
+@include color("danger", $red-500, $red-600, $white, $red-400);
+@include color("success", $green-500, $green-600, $white, $green-400);
+@include color("secondary", $gray-500, $gray-600, $black, $gray-400);
+@include color("primary", $blue-500, $blue-600, $white, $blue-400);
+
+@mixin outline-color($name, $color, $hoverColor, $text, $shadow) {
+  .btn-outline-#{$name} {
+    border: 1px solid $color;
+    background: none;
+    color: $color;
+    box-shadow: 0 0 0 0 $shadow;
+    &:hover, &:focus {
+      color: $text;
+      border: 1px solid $hoverColor;
+      background-color: $hoverColor;
+    }
+    &:focus {
+      box-shadow: 0 0 0 1px $shadow;
+    }
+  }
+}
+
+@include outline-color("dark", $dark-background, $dark-hover, $white, $dark-outline);
+@include outline-color("warning", $yellow-500, $yellow-600, $black, $yellow-400);
+@include outline-color("danger", $red-500, $red-600, $white, $red-400);
+@include outline-color("success", $green-500, $green-600, $white, $green-400);
+@include outline-color("secondary", $gray-500, $gray-600, $black, $gray-400);
+@include outline-color("primary", $blue(5), $blue(6), $white, $blue(4));
+@include outline-color("light", $gray-100, $gray-100, $black, $gray-200);
+
+.btn-small {
+  font-size: 15px;
+}
+
+.btn-large {
+  font-size: 18px;
+}
+
+.btn-disabled {
+  background-color: $gray-700;
+  color: $gray-600;
+  cursor: default;
+  &:hover, &:focus {
+    background-color: $gray-700;
+    color: $gray-600;
+    border: none;
+  }
+}

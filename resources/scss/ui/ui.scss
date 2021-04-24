@@ -1,0 +1,63 @@
+@import "../other";
+
+@mixin background($name, $color) {
+  .bg-#{$name}00 {
+    background-color: $color;
+  }
+}
+
+@mixin background-hover($name, $bg) {
+  .bg-hover-#{$name}00 {
+    transition: $transition;
+    &:hover {
+      background-color: $bg;
+    }
+  }
+}
+
+.bg-dark {
+  background-color: $dark-background;
+}
+
+.bg-dark-hover {
+  transition: $transition;
+  &:hover {
+    background-color: $dark-hover;
+  }
+}
+
+@mixin text-color($name, $bg) {
+  .text-#{$name}00 {
+    color: $bg;
+  }
+}
+
+@each $color in $colors {
+  $i: 1;
+
+  @each $currentColor in nth($color, 2) {
+    $name: nth($color, 1) + "-" + $i;
+    @include background($name, $currentColor);
+    @include background-hover($name, $currentColor);
+    @include text-color($name, $currentColor);
+    $i: $i + 1;
+  }
+}
+
+@for $i from 1 through 12 {
+  .p-#{$i} {
+    padding: ($i*$paddingFactor + px);
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.br {
+  border-radius: $border-card;
+}
+
+.br-button {
+  border-radius: $border-button;
+}
