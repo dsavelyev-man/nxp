@@ -3,14 +3,28 @@ const webpack = require("webpack");
 const dotenv = require('dotenv').config( {
   path: path.join(__dirname, '.env')
 } );
+const TerserWebpackPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = () => {
   return {
-    entry: ["babel-polyfill", path.resolve(__dirname, "./resources/js/app.js")],
+    entry: ["@babel/polyfill", path.resolve(__dirname, "./resources/js/app.js")],
+    optimization: {
+      minimize: true,
+      minimizer: [
+        new TerserWebpackPlugin({
+          parallel: true
+        })
+      ]
+    },
     output: {
       path: path.join(__dirname, "/public/assets"),
       filename: "index.js"
+    },
+    performance: {
+      hints: false,
+      maxEntrypointSize: 512000,
+      maxAssetSize: 512000
     },
     devServer: {
       historyApiFallback: true,

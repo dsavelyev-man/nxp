@@ -168,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,7 @@
       <workItem from="1619149597065" duration="49000" />
       <workItem from="1619149666058" duration="28000" />
       <workItem from="1619149866712" duration="41000" />
-      <workItem from="1619149952305" duration="8852000" />
+      <workItem from="1619149952305" duration="14409000" />
     </task>
     <servers />
   </component>
@@ -199,22 +199,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="879" y="545" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1619149902073" />
-    <state width="1587" height="198" key="GridCell.Tab.0.bottom" timestamp="1619244416422">
+    <state width="1587" height="187" key="GridCell.Tab.0.bottom" timestamp="1619275311778">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1587" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1619244416422" />
-    <state width="1587" height="198" key="GridCell.Tab.0.center" timestamp="1619244416422">
+    <state width="1587" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1619275311778" />
+    <state width="1587" height="187" key="GridCell.Tab.0.center" timestamp="1619275311778">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1587" height="198" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1619244416422" />
-    <state width="1587" height="198" key="GridCell.Tab.0.left" timestamp="1619244416422">
+    <state width="1587" height="187" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1619275311778" />
+    <state width="1587" height="187" key="GridCell.Tab.0.left" timestamp="1619275311778">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1587" height="198" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1619244416422" />
-    <state width="1587" height="198" key="GridCell.Tab.0.right" timestamp="1619244416422">
+    <state width="1587" height="187" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1619275311778" />
+    <state width="1587" height="187" key="GridCell.Tab.0.right" timestamp="1619275311778">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1587" height="198" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1619244416422" />
+    <state width="1587" height="187" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1619275311778" />
     <state x="600" y="449" key="SettingsEditor" timestamp="1619150018181">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -223,9 +223,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="902" y="237" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1619152071814" />
-    <state x="915" y="481" width="672" height="678" key="search.everywhere.popup" timestamp="1619208311409">
+    <state x="915" y="481" width="672" height="678" key="search.everywhere.popup" timestamp="1619265648412">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="915" y="481" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1619208311409" />
+    <state x="915" y="481" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1619265648412" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+@import "../../other";
+
+.admin {
+  display: grid;
+  grid-template-columns: minmax(220px, calc(100vw / 6)) 1fr;
+  height: 100vh;
+}

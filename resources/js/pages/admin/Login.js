@@ -7,6 +7,7 @@ import {RequestCurrentUser, RequestLogin} from "../../requests";
 import { Redirect } from "react-router-dom";
 
 function Login(props) {
+
   const data = useState({
     email: "",
     password: "",

@@ -5,6 +5,8 @@
   border-radius: $border-button;
   padding: 8px 24px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
   font-weight: 600;
   font-family: $font;
   transition: $transition;
@@ -18,13 +20,14 @@
     &:hover, &:focus {
       background-color: $hoverColor;
     }
-    &:focus {
-      box-shadow: 0 0 0 1px $shadow;
-    }
+    //&:focus {
+    //  box-shadow: 0 0 0 1px $shadow;
+    //}
   }
 }
 
 @include color("dark", $dark-background, $dark-hover, $white, $dark-outline);
+@include color("dark-light", $dark-light, $dark-outline, $white, $dark-outline);
 @include color("warning", $yellow-500, $yellow-600, $black, $yellow-400);
 @include color("danger", $red-500, $red-600, $white, $red-400);
 @include color("success", $green-500, $green-600, $white, $green-400);
@@ -42,9 +45,9 @@
       border: 1px solid $hoverColor;
       background-color: $hoverColor;
     }
-    &:focus {
-      box-shadow: 0 0 0 1px $shadow;
-    }
+    //&:focus {
+    //  box-shadow: 0 0 0 1px $shadow;
+    //}
   }
 }
 
