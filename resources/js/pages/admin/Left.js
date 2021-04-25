@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 const links = [
   {
     to: "/posts",
-    label: "посты"
+    label: "Посты"
   }
 ];
 
@@ -21,9 +21,11 @@ export default function Left() {
         links.map(link => {
 
           return <Button className="admin-left-link" size="large" key={link.to} textAlign="left" color="dark">
-            {
-              link.label
-            }
+            <p className="btn-text">
+              {
+                link.label
+              }
+            </p>
             <Link className="link" to={`/admin${link.to}`}/>
           </Button>
         })

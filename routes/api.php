@@ -17,8 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->group(function() {
 	Route::prefix("admin")->group(function () {
 		Route::get("current-user", "App\\Http\\Controllers\\AdminController@getCurrentUser");
+		Route::post("posts/create", "App\\Http\\Controllers\\AdminController@createPost");
 	});
 });
+
+Route::get("posts", "App\\Http\\Controllers\\AdminController@getPosts");
 
 Route::prefix("admin")->group(function () {
 	Route::post("login", "App\\Http\\Controllers\\AdminController@login");

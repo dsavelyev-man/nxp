@@ -1,0 +1,61 @@
+@import "../../other";
+
+.admin-posts {
+  display: grid;
+  padding: 10px;
+  grid-template-rows: 48px 1fr;
+}
+
+.admin-posts-create {
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: minmax(220px, 800px);
+}
+
+.admin-posts-editor {
+  border-radius: $border-button;
+  display: grid;
+  grid-template-rows: 48px 1fr;
+}
+
+.admin-posts-input-heading {
+  outline: none;
+  font-size: 24px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  color: $white;
+  padding: 0 10px;
+}
+
+.admin-posts-variants {
+  display: grid;
+  padding: 0 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.admin-posts-heading-input {
+  display: grid;
+  padding: 10px;
+  padding-bottom: 0;
+  grid-template-columns: 1fr 100px;
+  &:first-child {
+    padding-top: 0;
+  }
+  & input {
+    background: none;
+    color: $gray-200;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+.admin-posts-create-content {
+  display: grid;
+  grid-template-rows: 38px 1fr 38px;
+  grid-gap: 10px;
+}

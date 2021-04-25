@@ -62,16 +62,16 @@
   border-radius: $border-button;
 }
 
-.text-align-center {
-  text-align: center;
+.flex-justify-center {
+  justify-content: center;
 }
 
-.text-align-left {
-  text-align: left;
+.flex-justify-left {
+  justify-content: flex-start;
 }
 
-.text-align-right {
-  text-align: right;
+.flex-justify-right {
+  justify-content: flex-end;
 }
 
 .link {
@@ -80,4 +80,19 @@
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.btn-text {
+  display: flex;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.text-white {
+  color: $white;
+}
+
+.relative {
+  position: relative;
 }
